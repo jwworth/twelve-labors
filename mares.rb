@@ -38,7 +38,7 @@ MY_HEREDOC
 		puts "They soon die of malnutrition."
 		dead("#{mares_die}")
 	elsif action.include? "corpse"
-		puts "\nYou decide feed the Mares Diomedes' rotting corpse."
+		puts "\nYou decide feed the Mares Diomedes' still-warm corpse."
 		puts "They eat Diomedes and suddenly turn into docile, tame horses."
 		puts "You return to the King with his Mares."
 		next_level("SMART MOVE, HERACLES!")
