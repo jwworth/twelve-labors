@@ -58,7 +58,7 @@ MY_HEREDOC
 
 	puts intro
 	next_level("GET READY, HERACLES!")
-	immortality
+	lion
 end
 
 start()
