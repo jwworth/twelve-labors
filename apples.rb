@@ -1,7 +1,7 @@
 def apples()
-  labor = "retrieve the Golden Apples of Hesperides"
+	labor = "retrieve the Golden Apples of Hesperides"
 	new_atlas = "Congratulations, you are the new Atlas, doomed to carry the Earth for eternity."
-  puts "\n\"Your eleventh labor,\" says the King, \"is to #{labor}.\""
+	puts "\n\"Your eleventh labor,\" says the King, \"is to #{labor}.\""
 	
 intro = <<MY_HEREDOC
 
@@ -30,22 +30,22 @@ MY_HEREDOC
 	action = action.downcase
 
 	if action.include? "drop"
-	  puts "\nYou decide to drop the world."
+		puts "\nYou decide to drop the world."
 		dead("Mountains crumble, seas boil, the poles realign, and we all die a fiery, horrible death.")
 	elsif action.include? "keep holding"
-	  puts "\nYou decide to keep holding up the world."
+		puts "\nYou decide to keep holding up the world."
 		dead("#{new_atlas}")
 	elsif action.include? "just a minute" or action.include? "ask"
-	  puts "\nYou decide ask Atlas to hold up the world for 'just a minute.'"
+		puts "\nYou decide ask Atlas to hold up the world for 'just a minute.'"
 		puts "'Just so I can put some padding behind my head, Atlas.'"
 		puts "When Atlas agrees and takes the world again, you run away with the Apples."
 		next_level("SMART, HERACLES!")
-	  cerebus()
+		cerebus()
 	else
-	  puts "\nWhile you were messing around, Atlas left."
+		puts "\nWhile you were messing around, Atlas left."
 		dead("#{new_atlas}")
 	end
 
-	cerebus()
+	cerebus
 	
 end

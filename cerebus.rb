@@ -1,6 +1,6 @@
 def cerebus()
-  labor = "fetch Cerebus from the Underworld"
-  puts "\n\"Your final labor,\" says the King, \"is to #{labor}.\""
+	labor = "fetch Cerebus from the Underworld"
+	puts "\n\"Your final labor,\" says the King, \"is to #{labor}.\""
 	
 intro = <<MY_HEREDOC
 
@@ -42,7 +42,7 @@ MY_HEREDOC
 				puts "You run past the dark lord and wrestle Cerebus to the ground!"
 				battling = false
 				next_level("TOUCHE, HERACLES!")
-				immortality()
+				immortality
 			else
 	      puts "Try again Heracles!"
 			end

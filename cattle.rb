@@ -15,6 +15,6 @@ MY_HEREDOC
 
 	puts intro
 	next_level("EASY WIN, HERACLES!")
-	apples()
+	apples
 
 end

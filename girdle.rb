@@ -1,6 +1,6 @@
 def girdle()
-  labor = "bring back the Amazon Girdle"
-  puts "\n\"Your ninth labor,\" says the King, \"is to #{labor}.\""
+	labor = "bring back the Amazon Girdle"
+	puts "\n\"Your ninth labor,\" says the King, \"is to #{labor}.\""
 
 intro = <<MY_HEREDOC
 
@@ -29,6 +29,6 @@ MY_HEREDOC
 	end
 	
 	next_level("SMOOTH MOVE, HERACLES!")
-	cattle()
+	cattle
 	
 end

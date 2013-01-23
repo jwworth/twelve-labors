@@ -1,6 +1,6 @@
 def lion()
-  labor = "kill the Nemean Lion"
-  puts "\n\"Your first labor,\" says the King, \"is to #{labor}.\""
+	labor = "kill the Nemean Lion"
+	puts "\n\"Your first labor,\" says the King, \"is to #{labor}.\""
 
 
 intro = <<MY_HEREDOC
@@ -23,19 +23,19 @@ MY_HEREDOC
 	action = action.downcase
 	
 	if action.include? "spear"
-	  puts "\nYou attack with your spear."
+		puts "\nYou attack with your spear."
 		dead("The lion's hide is too thick for your spear, Heracles.  The lion eats you alive.")
 	elsif action.include? "bow" or action.include? "arrow"
-	  puts "\nYou attack with your bow and arrow."
+		puts "\nYou attack with your bow and arrow."
 		dead("The lion's hide is too thick for your arrows, Heracles.  The lion eats you alive.")
 	elsif action.include? "wrestle"
-	  puts "\nYou decide to wrestle the lion."
+		puts "\nYou decide to wrestle the lion."
 		puts "With your incredible strength, you pin it to the ground and strangle it."
 		next_level("GOOD JOB, HERACLES!")
-		hydra()
+		hydra
 	elsif action.include? "run"
-	  dead("\n#{RUN_AWAY}!")
+		dead("\n#{RUN_AWAY}!")
 	else
-	  dead("\nWhile you were messing around, the lion ate you alive.")
+		dead("\nWhile you were messing around, the lion ate you alive.")
 	end
 end

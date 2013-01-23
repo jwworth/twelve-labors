@@ -1,6 +1,6 @@
 def stables()
-  labor = "clean the Stables of Augeas"
-  puts "\n\"Your fifth labor,\" says the King, \"is to #{labor}.\""
+	labor = "clean the Stables of Augeas"
+	puts "\n\"Your fifth labor,\" says the King, \"is to #{labor}.\""
 
 intro = <<MY_HEREDOC
 
@@ -15,7 +15,7 @@ MY_HEREDOC
 	stables_clean = false
 	
 	while stables_clean == false do
-	  puts "WHAT DO YOU WANT TO DO, HERACLES?\n\n"
+		puts "WHAT DO YOU WANT TO DO, HERACLES?\n\n"
 		prompt
 		action = gets.chomp
 		action = action.downcase
@@ -25,14 +25,14 @@ MY_HEREDOC
 			next_level("GOOD GOING, HERACLES!")
 			stables_clean = true
 		elsif action.include? "river"
-		  puts "You might be onto something.  Remember, you have superhuman strength."
+			puts "You might be onto something.  Remember, you have superhuman strength."
 		elsif action.include? "divert"
-		  puts "You might be onto something.  Remember, that there are two rivers nearby."
+			puts "You might be onto something.  Remember, that there are two rivers nearby."
 	  else
-		  puts "\nThat didn't work.\n"
+			puts "\nThat didn't work.\n"
 		end
 	end
 		
-	birds()
+	birds
 	
 end
