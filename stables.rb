@@ -5,9 +5,9 @@ def stables()
 intro = <<MY_HEREDOC
 
 The Stables of Augeas sit at the junction of two rivers.
-They are home to thousands of cattle.
-They have not been cleaned in thirty years.
-The King has ordered you to clean them in one day.
+They have not been cleaned in thirty years, and are home
+to thousands of cattle.  The King has ordered you to clean
+them in one day.
 
 MY_HEREDOC
 
@@ -19,9 +19,9 @@ MY_HEREDOC
 		prompt
 		action = gets.chomp
 		action = action.downcase
-		if action.include? "divert" or action.include? "move" and action.include? "river"
+		if action.include? "divert river" or action.include? "divert the river"
 			puts "\nYou use your superhuman strength to divert the two nearby rivers."
-			puts "The water flows through the Stables and cleans out all the dung in one day."
+			puts "A tidal wave of water cleans the Stables in a single day."
 			next_level("GOOD GOING, HERACLES!")
 			stables_clean = true
 		elsif action.include? "river"
