@@ -26,13 +26,14 @@ end
 def next_level(message)
   puts "\n#{message}"
   puts "Are you ready for the next challenge (Y or N)?\n\n"
-  prompt;	ready = gets.chomp	
+  prompt
+	ready = gets.chomp	
 	
   if ready.upcase == "Y" or ready.upcase == "YES"
-	  print ""
+    print ""
   else
-	  puts "\nYou choose not to continue!"
-	  dead("#{RUN_AWAY}")
+    puts "\nYou choose not to continue!"
+    dead("#{RUN_AWAY}")
   end
   puts "-" * 75
 end
