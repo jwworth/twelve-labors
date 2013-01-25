@@ -11,15 +11,15 @@ CONGRATULATIONS, HERACLES!
 
 MY_HEREDOC
 
-	puts conclusion
-	puts "Play again (Y or N)?\n\n"
-	prompt
-	play_again = gets.chomp	
-	play_again = play_again.downcase
+  puts conclusion
+  puts "Play again (Y or N)?\n\n"
+  prompt
+  play_again = gets.chomp	
+  play_again = play_again.downcase
 	
-	if play_again == "y" or play_again == "yes"
-		start
-	else
-		Process.exit(0)
-	end
+  if play_again == "y" or play_again == "yes"
+    start
+  else
+  Process.exit(0)
+  end
 end

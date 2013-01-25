@@ -13,8 +13,8 @@ You return home and present the Girdle and the Cattle to
 the King, who is very pleased.
 MY_HEREDOC
 
-	puts intro
-	next_level("EASY WIN, HERACLES!")
-	apples
+  puts intro
+  next_level("EASY WIN, HERACLES!")
+  apples
 
 end
