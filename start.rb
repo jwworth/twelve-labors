@@ -15,26 +15,26 @@ require_relative "immortality.rb"
 RUN_AWAY = "You must have courage, Heracles, to purify yourself.  YOU FAIL!"
 
 def prompt()
-	print ">"
+  print ">"
 end
 
 def dead(why)
-	puts "#{why}\a Goodbye!"
-	Process.exit(0)
+  puts "#{why}\a Goodbye!"
+  Process.exit(0)
 end
 
 def next_level(message)
-	puts "\n#{message}"
-	puts "Are you ready for the next challenge (Y or N)?\n\n"
-	prompt;	ready = gets.chomp	
+  puts "\n#{message}"
+  puts "Are you ready for the next challenge (Y or N)?\n\n"
+  prompt;	ready = gets.chomp	
 	
-	if ready.upcase == "Y" or ready.upcase == "YES"
-		print ""
-	else
-		puts "\nYou choose not to continue!"
-		dead("#{RUN_AWAY}")
-	end
-	puts "-" * 75
+  if ready.upcase == "Y" or ready.upcase == "YES"
+	  print ""
+  else
+	  puts "\nYou choose not to continue!"
+	  dead("#{RUN_AWAY}")
+  end
+  puts "-" * 75
 end
 
 def start()
@@ -53,9 +53,9 @@ Stricken with grief, you journey to Delphi to consult the wise Oracle.
 and perform any TEN LABORS he demands.  Then you will be pure."
 MY_HEREDOC
 
-	puts intro
-	next_level("GET READY, HERACLES!")
-	lion
+  puts intro
+  next_level("GET READY, HERACLES!")
+  lion
 end
 
 start()
