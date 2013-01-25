@@ -34,13 +34,12 @@ def next_level(message)
 		puts "\nYou choose not to continue!"
 		dead("#{RUN_AWAY}")
 	end
-	puts "---------------------------------------------------------------------------"
+	puts "-" * 75
 end
 
 def start()
-
+  puts "-" * 75
 intro = <<MY_HEREDOC
----------------------------------------------------------------------------
 
 Begin the TWELVE LABORS OF HERACLES!
 
