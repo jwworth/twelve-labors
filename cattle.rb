@@ -1,4 +1,4 @@
-def cattle
+def cattle()
 
 intro = <<MY_HEREDOC
 
