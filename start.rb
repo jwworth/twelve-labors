@@ -19,18 +19,16 @@ def prompt()
 end
 
 def dead(why)
-	puts "#{why}  Goodbye!"
+	puts "#{why}\a Goodbye!"
 	Process.exit(0)
 end
 
 def next_level(message)
 	puts "\n#{message}"
 	puts "Are you ready for the next challenge (Y or N)?\n\n"
-	prompt
-	ready = gets.chomp	
-	ready = ready.downcase
+	prompt;	ready = gets.chomp	
 	
-	if ready == "y" or ready == "yes"
+	if ready.upcase == "Y" or ready.upcase == "YES"
 		print ""
 	else
 		puts "\nYou choose not to continue!"
@@ -48,10 +46,10 @@ Begin the TWELVE LABORS OF HERACLES!
 
 You are HERACLES, the son of Zeus, King of the Gods, and the moral Alcmene.
 Zeus' wife Hera is on a quest to destroy all of his illegitimate children.
-In her attempt to destroy you, Heracles, Hera has tricked you into killing your family.
+In her quest to destroy you, Heracles, Hera tricks you into killing your family.
 
-Stricken with grief, you journey to Delphi to consult the Oracle.
-"How can I purify myself after committing this horrible deed?" you ask.
+Stricken with grief, you journey to Delphi to consult the wise Oracle.
+"How can I purify myself?" you ask the Orcale.
 "To purify yourself," says the Oracle, "you must go Tiryns.  Find King Eurystheus
 and perform any TEN LABORS he demands.  Then you will be pure."
 MY_HEREDOC
