@@ -1,4 +1,4 @@
-def immortality()
+def immortality
 
 conclusion = <<MY_HEREDOC
 

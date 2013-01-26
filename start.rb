@@ -27,7 +27,7 @@ def next_level(message)
   puts "\n#{message}"
   puts "Are you ready for the next challenge (Y or N)?\n\n"
   prompt
-	ready = gets.chomp
+  ready = gets.chomp
   ready = ready.upcase
   puts dead("#{RUN_AWAY}") if ready.include? "N"
   puts "-" * 75

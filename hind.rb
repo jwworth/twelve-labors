@@ -1,4 +1,4 @@
-def hind()
+def hind
   labor = "capture the Cerynitian Hind"
   puts "\n\"Your third labor,\" says the King, \"is to #{labor}.\""
 	

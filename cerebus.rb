@@ -1,4 +1,4 @@
-def cerebus()
+def cerebus
   labor = "fetch Cerebus from the Underworld"
   puts "\n\"Your final labor,\" says the King, \"is to #{labor}.\""
 	

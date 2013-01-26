@@ -1,4 +1,4 @@
-def girdle()
+def girdle
   labor = "bring back the Amazon Girdle"
   puts "\n\"Your ninth labor,\" says the King, \"is to #{labor}.\""
 

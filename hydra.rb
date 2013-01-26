@@ -1,4 +1,4 @@
-def hydra()
+def hydra
   labor = "kill the Hydra of Lerna"
   puts "\n\"Your second labor,\" says the King, \"is to #{labor}.\""
 

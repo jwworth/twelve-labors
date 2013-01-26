@@ -1,4 +1,4 @@
-def stables()
+def stables
   labor = "clean the Stables of Augeas"
   puts "\n\"Your fifth labor,\" says the King, \"is to #{labor}.\""
 

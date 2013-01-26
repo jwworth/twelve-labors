@@ -1,4 +1,4 @@
-def mares()
+def mares
   labor = "capture the Mares of Diomedes"
   mares_die = "The King hears of your misfortune and orders your execution."
   puts "\n\"Your eigth labor,\" says the King, \"is to #{labor}.\""

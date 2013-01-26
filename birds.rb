@@ -1,4 +1,4 @@
-def birds()
+def birds
   labor = "drive out the Stymphalian Birds"
   puts "\n\"Your sixth labor,\" says the King, \"is to #{labor}.\""
 

@@ -1,4 +1,4 @@
-def lion()
+def lion
   labor = "kill the Nemean Lion"
   puts "\n\"Your first labor,\" says the King, \"is to #{labor}.\""
 

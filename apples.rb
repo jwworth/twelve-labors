@@ -1,4 +1,4 @@
-def apples()
+def apples
   labor = "retrieve the Golden Apples of Hesperides"
   puts "\n\"Your eleventh labor,\" says the King, \"is to #{labor}.\""
 	

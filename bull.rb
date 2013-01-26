@@ -1,4 +1,4 @@
-def bull()
+def bull
   labor = "capture the Cretan Bull"
   puts "\n\"Your seventh labor,\" says the King, \"is to #{labor}.\""
 

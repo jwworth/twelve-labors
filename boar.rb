@@ -1,4 +1,4 @@
-def boar()
+def boar
   labor = "capture the Erymanthian Boar"
   puts "\n\"Your fourth labor,\" says the King, \"is to #{labor}.\""
 
