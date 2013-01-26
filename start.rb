@@ -14,7 +14,7 @@ require_relative "immortality.rb"
 
 RUN_AWAY = "You must have courage, Heracles, to purify yourself.  YOU FAIL!"
 
-def prompt()
+def prompt
   print ">"
 end
 
@@ -27,18 +27,13 @@ def next_level(message)
   puts "\n#{message}"
   puts "Are you ready for the next challenge (Y or N)?\n\n"
   prompt
-	ready = gets.chomp	
-	
-  if ready.upcase == "Y" or ready.upcase == "YES"
-    print ""
-  else
-    puts "\nYou choose not to continue!"
-    dead("#{RUN_AWAY}")
-  end
+	ready = gets.chomp
+  ready = ready.upcase
+  puts dead("#{RUN_AWAY}") if ready.include? "N"
   puts "-" * 75
 end
 
-def start()
+def start
   puts "-" * 75
 intro = <<MY_HEREDOC
 
@@ -46,12 +41,13 @@ Begin the TWELVE LABORS OF HERACLES!
 
 You are HERACLES, the son of Zeus, King of the Gods, and the moral Alcmene.
 Zeus' wife Hera is on a quest to destroy all of his illegitimate children.
-In her quest to destroy you, Heracles, Hera tricks you into killing your family.
+In her quest to destroy you, Hera tricks you into killing your family.
 
 Stricken with grief, you journey to Delphi to consult the wise Oracle.
 "How can I purify myself?" you ask the Orcale.
-"To purify yourself," says the Oracle, "you must go Tiryns.  Find King Eurystheus
-and perform any TEN LABORS he demands.  Then you will be pure."
+
+"You must go Tiryns," says the Oracle.  Find King Eurystheus and perform
+any TEN LABORS he demands.  Then you will be pure."
 MY_HEREDOC
 
   puts intro
@@ -59,4 +55,4 @@ MY_HEREDOC
   lion
 end
 
-start()
+start
