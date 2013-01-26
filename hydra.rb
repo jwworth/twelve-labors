@@ -4,9 +4,9 @@ def hydra
 
 intro = <<MY_HEREDOC
 
-The Hydra of Lerna is a terrible beast with many heads.
+The Hydra of Lerna is a terrible multi-headed serpent with poisonous breath.
+For each head that is chopped off, two more regrow.
 You confront it with sword at the ready.
-Each head you chop off immediately regenerates, causing no damage.
 
 WHAT DO YOU WANT TO DO, HERACLES?
 
@@ -23,17 +23,17 @@ MY_HEREDOC
   action = action.downcase
 	
   if action.include? "continue" or action.include? "chopping"
-    puts "\nYou continue chopping.  The heads continue to grow back over and over again."
+    puts "\nYou continue chopping.  The heads regrow again and again."
     dead("Eventually you grow tired, and the Hydra bites your head off.")
   elsif action.include? "help"
     puts "\nYou call for help, and your nephew Iolaus rushes to your aid."
-    puts "He cauterizes each stump after each blow, preventing new heads from growing."
-    puts "You bury the final immortal head under a rock."
+    puts "After you chop off each head, Iolaus cauterizes the stump."
+    puts "When only one head remains, you bury it under a rock."
     next_level("WELL DONE, HERACLES!")
     hind
   elsif action.include? "wrestle"
     puts "\nYou decide to wrestle the Hydra."
-    dead("Even with your superhuman strenth, the beast is too strong and kills you.")
+    dead("Even your superhumans strength is not enough for this beast.  You die.")
   elsif action.include? "run"
     dead("\n#{RUN_AWAY}!")
    else
