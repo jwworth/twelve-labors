@@ -25,12 +25,23 @@ end
 
 def next_level(message)
   puts "\n#{message}"
-  puts "Are you ready for the next challenge (Y or N)?\n\n"
-  prompt
-  ready = gets.chomp
-  ready = ready.upcase
-  puts dead("#{RUN_AWAY}") if ready.include? "N"
-  puts "-" * 75
+  puts "Are you ready for the next challenge? (Y or N)\n\n"
+  valid_input = false
+  
+  while valid_input == false do
+    prompt
+    ready = gets.chomp
+    ready = ready.upcase
+    if ready.include? "Y"
+      puts "-" * 75
+      valid_input = true
+    elsif ready.include? "N"
+      dead("#{RUN_AWAY}")
+      valid_input = true
+    else
+      puts "Please provide a valid input:"
+    end   
+  end
 end
 
 def start
