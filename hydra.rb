@@ -33,7 +33,7 @@ MY_HEREDOC
     hind
   elsif action.include? "wrestle"
     puts "\nYou decide to wrestle the Hydra."
-    dead("Even your superhumans strength is not enough for this beast.  You die.")
+    dead("Your superhuman strength is not enough for this beast.  You die.")
   elsif action.include? "run"
     dead("\n#{RUN_AWAY}!")
    else

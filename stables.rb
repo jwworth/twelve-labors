@@ -20,14 +20,16 @@ MY_HEREDOC
     action = gets.chomp
     action = action.downcase
     if action.include? "divert river" or action.include? "divert the river"
-      puts "\nYou use your superhuman strength to divert the two nearby rivers."
+      puts "\nYou use your superhuman strength to divert the nearby rivers."
       puts "A tidal wave of water cleans the Stables in a single day."
       next_level("GOOD GOING, HERACLES!")
       stables_clean = true
     elsif action.include? "river"
-      puts "You might be onto something.  Remember, you have superhuman strength."
+      puts "You might be onto something."
+      puts "Remember that you have superhuman strength!"
     elsif action.include? "divert"
-      puts "You might be onto something.  Remember, that there are two rivers nearby."
+      puts "You might be onto something."
+      puts "Remember that there are two rivers nearby!"
     else
       puts "\nThat didn't work.\n"
     end

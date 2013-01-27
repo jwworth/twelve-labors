@@ -31,7 +31,7 @@ MY_HEREDOC
 	
   if action.include? "berries"
     puts "\nYou pick some berries from a nearby bush and feed the Mares."
-    puts "They Mares are man-eating horses and the berries kill them instantly."
+    puts "The Mares are carnivores and the berries kill them instantly."
     dead("#{mares_die}")
   elsif action.include? "keep" or action.include? "going"
     puts "\nYou decide to continue your journey without feeding the Mares."
