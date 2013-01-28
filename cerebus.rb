@@ -5,9 +5,9 @@ def cerebus
 intro = <<MY_HEREDOC
 
 To retreive the three-headed dog Cerebus, guardian 
-of Hades, you travel into the Underworld.
+of Hades, you venture into the Underworld.
 
-Hades, god of the Underworld, hears of the journey,
+Hades, God of the Underworld, hears of the journey,
 and confronts you at the Gates of Hell.
 
 WHAT DO YOU WANT TO DO, HERACLES?

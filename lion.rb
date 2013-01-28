@@ -23,13 +23,13 @@ MY_HEREDOC
 	
   if action.include? "spear"
     puts "\nYou attack with your spear!"
-    dead("The Lion's hide is too thick for your spear, Heracles.  The Lion eats you alive.")
+    dead("The Lion's hide is too thick for your spear!  The Lion eats you.")
   elsif action.include? "bow" or action.include? "arrow"
     puts "\nYou attack with your bow and arrow!"
-    dead("The Lion's hide is too thick for your arrows, Heracles.  The Lion eats you alive.")
+    dead("The Lion's hide is too thick for your arrows!  The Lion eats you.")
   elsif action.include? "wrestle"
     puts "\nYou decide to wrestle the Lion!"
-    puts "With your incredible strength, you pin the beast to the earth and strangle it."
+    puts "With your incredible strength, you pin the beast and strangle it."
     next_level("GOOD JOB, HERACLES!")
     hydra
   elsif action.include? "run"
