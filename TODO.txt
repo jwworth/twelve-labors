@@ -1,5 +1,0 @@
-To DO - twelve-labors
-
-Go through ruby style guide and make changes
-Tighten up dialogue
-Standardize Line Structure (HOT!)
