@@ -8,8 +8,8 @@ text = <<MY_HEREDOC
 "Your second labor," says the King, "is to kill the Hydra of Lerna."
 
 The Hydra of Lerna is a terrible multi-headed serpent with poisonous breath.
-For each head that is chopped off, two more regrow.
-You confront it with sword at the ready.
+For each head that is chopped off, two more regrow.  You confront it with
+sword at the ready.
 
 WHAT DO YOU WANT TO DO, HERACLES?
 
