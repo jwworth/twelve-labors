@@ -7,10 +7,10 @@ text = <<MY_HEREDOC
 
 "Your ninth labor," says the King, "is to bring back the Amazon Girdle."
 
-The Amazon Girdle is owned by the Queen of the Amazons,
-are warring race of women.
+The Amazon Girdle is owned by the Queen of the Amazons, a race of female
+warriors.
 
-You find the Queen and her the Girdle.
+You find the Queen and spot her Girdle.
 MY_HEREDOC
 end
 

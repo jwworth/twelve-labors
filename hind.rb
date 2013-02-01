@@ -7,14 +7,14 @@ text = <<MY_HEREDOC
 
 "Your third labor," says the King, "is to capture the Cernitian Hind."
 
-"But first," says the King, "I must say something.
-When killing the Hydra, you enlisted the help of your cousin Iolaus.
-These labors must be completed by you and you alone, Heracles.
-As such, I do not count the slaying of the Hydra as one of your ten labors.
-You must now complete an additional labor, meaning eleven total labors."
+"But first," says the King, "I must say something.  When killing the Hydra,
+you enlisted the help of your cousin Iolaus.  These labors must be completed
+by you and you alone, Heracles.  As such, I do not count the slaying of the
+Hydra as one of your ten labors.  You must now complete an additional labor,
+meaning eleven total labors."
 
-You go on the hunt, and finally spot the Cerynitian Hind.
-It is a beautiful deer with bright golden antlers.
+You go on the hunt, and finally spot the Cerynitian Hind.  It is a beautiful
+deer with bright golden antlers.
 
 WHAT DO YOU WANT TO DO, HERACLES?
 

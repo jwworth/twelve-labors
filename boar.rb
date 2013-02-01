@@ -7,10 +7,10 @@ text = <<MY_HEREDOC
 
 "Your fourth labor," says the King, "is to capture the Erymanthian Boar."
 
-The Ermanthian Boar is a vicious beast that has terrorized the
-woodlands of Psophis for years.
+The Ermanthian Boar is a vicious beast that has terrorized the woodlands
+of Psophis for years.
 
-You approach the boar's lair, sword at the ready.
+You approach the boar's lair, sword ready.
 
 WHAT DO YOU WANT TO DO, HERACLES?
 

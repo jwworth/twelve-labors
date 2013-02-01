@@ -26,13 +26,13 @@ class Level
       elsif action == choice_1
         puts "testing"
         puts consequence_1
-      #elsif action == choice_2
-       # dead("#{consequence_2}")
-      #elsif action == choice_3
-       # goal_achieved = true
-        #puts consequence_3
-      #elsif action == "run away"
-       # dead("#{@run_away}")
+      elsif action == choice_2
+        dead("#{consequence_2}")
+      elsif action == choice_3
+        goal_achieved = true
+        puts consequence_3
+      elsif action == "run away"
+        dead("#{@run_away}")
       elsif action == ""
         do_nothing
       else

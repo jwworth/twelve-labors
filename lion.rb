@@ -21,9 +21,8 @@ any TEN LABORS he demands.  Then you will be pure."
 
 "Your first labor," says the King, "is to Kill the Nemean Lion."
 
-You travel to Nemea and find the fearsome Lion.
-He is a nightmarish beast with thick, leathery hide.
-You approach the giant cat with weapons at the ready.
+You travel to Nemea and find the fearsome Lion.  He is a nightmarish beast
+with thick, leathery hide.  You approach the giant cat with weapons ready.
 
 WHAT DO YOU WANT TO DO, HERACLES?
 

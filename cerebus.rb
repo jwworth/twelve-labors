@@ -7,11 +7,11 @@ text = <<MY_HEREDOC
 
 "Your final labor," says the King, "is to fetch Cerebus from the Underworld."
 
-To retreive the three-headed dog Cerebus, guardian 
-of Hades, you venture into the Underworld.
+To retreive the three-headed dog Cerebus, guardian of the Underwold, you
+venture into the Earth.
 
-Hades, God of the Underworld, hears of the journey,
-and confronts you at the Gates of Hell.
+Hades, God of the Underworld, hears of the journey, and confronts you at
+the Gates of Hell.
 
 WHAT DO YOU WANT TO DO, HERACLES?
 

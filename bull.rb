@@ -7,11 +7,11 @@ text = <<MY_HEREDOC
 
 "Your seventh labor," says the King, "is to capture the Cretan Bull."
 
-"Once again," says the King, "I must say something.
-When ridding us of the birds, you enlisted the god Hephaestus.
-These labors must be completed by you and you alone, Heracles.
-As such, I do not count your last challenge as one of your ten labors.
-You must now complete an additional labor, meaning twelve total labors."
+"Once again," says the King, "I must say something.  When ridding us of the
+birds, you enlisted the god Hephaestus.  These labors must be completed by
+you and you alone, Heracles.  As such, I do not count your last challenge
+as one of your ten labors.  You must now complete an additional labor,
+meaning twelve total labors."
 
 You go on the hunt, and finally spot the Cretan Bull.
 

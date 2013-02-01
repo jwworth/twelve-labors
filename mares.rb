@@ -7,16 +7,16 @@ text = <<MY_HEREDOC
 
 "Your eigth labor," says the King, "is to capture the Mares of Diomedes."
 
-Diomedes' Mares are a pack of vicious man-eating horses.
-They belong to Diomedes, a hero of the Trojan War.
+Diomedes' Mares are a pack of vicious man-eating horses.  They belong to
+Diomedes, a hero of the Trojan War.
 
-You find the horses and manage to steal them, but
-on the way back, are attacked by Diomedes.
+You find the horses and manage to steal them, but on the way home, Diomed-
+es attacks you!
 
-An intense battle follows, and in the end, you kill Diomedes.
+An intense battle follows, and in the end, you triumph.
 
-Later in the journey, the horses become weak from malnutrition.
-They must eat or they will die.
+As the journey drags on, the horses become weak from malnutrition.  They
+must eat soon or die!
 
 WHAT DO YOU WANT TO DO, HERACLES?
 

@@ -5,18 +5,16 @@ text = <<MY_HEREDOC
   
 --------------------------------------------------------------------------
 
-"Your eleventh labor," says the King, "is to retrieve the Golden Apples of Hesperides."
+"Your eleventh labor," says the King, "is to retrieve the Golden Apples of
+Hesperides."
 
-To retreive the Golden Apples of Hesperides, you
-request the assistance of the god Atlas.  His daughters
-guard the apples.
+To retreive the Golden Apples of Hesperides, you request the assistance
+of the god Atlas.  His daughters guard the apples.
 
-Atlas agrees to help, and collects the apples for you.
-In exchange, you agree to hold the world on your shoulders
-while he completes the labor.
+Atlas agrees to help, and collects the apples for you.  In exchange, you
+agree to hold the world on your shoulders while he completes the labor.
 
-When Atlas comes back, he does not want to take the world
-back on his shoulders.
+When Atlas returns, he argues with you about taking back his burden.
 
 WHAT DO YOU WANT TO DO, HERACLES?
 

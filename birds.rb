@@ -7,13 +7,13 @@ text = <<MY_HEREDOC
 
 "Your sixth labor," says the King, "is to drive out the Stymphalian Birds."
 
-The Stymphalian Birds are a group of man-eating demons
-who terrorize the forest.
+The Stymphalian Birds are a group of man-eating demons who terrorize the
+forest.
 
 You approach the birds' nesting grounds, sword at the ready.
 
-The God Haphaestus has given you an advantage in this battle,
-by making you a giant bronze rattle to frighten the birds.
+The God Haphaestus gives you an advantage in this battle, by making
+for you a giant bronze rattle to frighten the birds.
 MY_HEREDOC
 end
 
