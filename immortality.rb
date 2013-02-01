@@ -1,6 +1,9 @@
-def immortality
+class Immortality < Level
 
-conclusion = <<MY_HEREDOC
+  def intro
+text = <<MY_HEREDOC
+  
+--------------------------------------------------------------------------
 
 Having completed all ten labors, plus two extra,
 you are purified of your sins.  You are further
@@ -8,18 +11,21 @@ granted IMMORTALITY, and are now a divine hero
 among men.
 
 CONGRATULATIONS, HERACLES!
-
 MY_HEREDOC
+end
 
-  puts conclusion
-  puts "Play again (Y or N)?\n\n"
-  prompt
-  play_again = gets.chomp	
-  play_again = play_again.downcase
-	
-  if play_again == "y" or play_again == "yes"
-    start
-  else
-  Process.exit(0)
+  def play
+  
+    puts intro
+    puts "Play again (Y or N)?"
+    prompt
+    play_again = gets.chomp.downcase
+    
+    if play_again == "y" or play_again == "yes"
+      lion = Lion.new
+      lion.play
+    else
+      Process.exit(0)
+    end
   end
 end
