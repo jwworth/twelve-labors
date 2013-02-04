@@ -2,7 +2,7 @@ class Birds < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your sixth labor," says the King, "is to drive out the Stymphalian Birds."

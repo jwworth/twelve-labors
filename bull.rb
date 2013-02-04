@@ -2,7 +2,7 @@ class Bull < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your seventh labor," says the King, "is to capture the Cretan Bull."
@@ -25,11 +25,11 @@ MY_HEREDOC
 end
 
   def play
-    
+
     puts intro  	
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
@@ -58,7 +58,7 @@ end
         dont_understand
       end
     end
-    
+
     mares = Mares.new
     mares.play
   end

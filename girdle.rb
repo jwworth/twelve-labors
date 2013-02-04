@@ -2,7 +2,7 @@ class Girdle < Level
 
   def intro_1
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your ninth labor," says the King, "is to bring back the Amazon Girdle."
@@ -16,7 +16,7 @@ end
 
   def intro_2
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 On the way back from the Amazons, you complete a tenth labor,
@@ -57,9 +57,8 @@ end
         dont_understand
       end
     end
-    
+
     puts intro_2
-    
     apples = Apples.new
     apples.play
   end

@@ -2,7 +2,7 @@ class Mares < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your eigth labor," says the King, "is to capture the Mares of Diomedes."
@@ -27,7 +27,7 @@ MY_HEREDOC
 end
 
   def play
-    
+
     puts intro
     mares_die = "The King hears of your misfortune and orders your execution."
     labor_completed = false
@@ -60,7 +60,7 @@ end
         dont_understand
       end
     end
-  
+
   girdle = Girdle.new
   girdle.play
   end

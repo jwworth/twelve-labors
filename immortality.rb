@@ -2,7 +2,7 @@ class Immortality < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 Having completed all ten labors, plus two extra, you are purified of your
@@ -14,12 +14,12 @@ MY_HEREDOC
 end
 
   def play
-  
+
     puts intro
     puts "Play again (Y or N)?"
     prompt
     play_again = gets.chomp.downcase
-    
+
     if play_again == "y" or play_again == "yes"
       lion = Lion.new
       lion.play

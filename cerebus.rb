@@ -2,7 +2,7 @@ class Cerebus < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your final labor," says the King, "is to fetch Cerebus from the Underworld."
@@ -21,11 +21,11 @@ MY_HEREDOC
 end
 
   def play
-    
+
     puts intro  	
     choose_fight = false
     counter = 0
-    
+
     while choose_fight == false do
       counter += 1
       prompt
@@ -60,7 +60,7 @@ end
         dead("Hades kills you.")
       end
     end
-    
+
   immortality = Immortality.new
   immortality.play
   end

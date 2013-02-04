@@ -2,7 +2,7 @@ class Hydra < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your second labor," says the King, "is to kill the Hydra of Lerna."
@@ -19,13 +19,13 @@ WHAT DO YOU WANT TO DO, HERACLES?
 - Run away?
 MY_HEREDOC
   end
-  
+
   def play
-    
+
     puts intro  	
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
@@ -51,7 +51,7 @@ MY_HEREDOC
         dont_understand
       end
     end
-  
+
     hind = Hind.new
     hind.play
   end  

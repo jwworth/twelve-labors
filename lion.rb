@@ -2,7 +2,7 @@ class Lion < Level
 
   def intro
   text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 Begin the TWELVE LABORS OF HERACLES!
@@ -33,22 +33,12 @@ WHAT DO YOU WANT TO DO, HERACLES?
 MY_HEREDOC
   end
 
-# The variables below exist for the parent function of same name (under construction)
-=begin
-  choice_1 = "spear"
-  consequence_1 = "The Lion's hide is too thick for your spear!  The Lion eats you."
-  choice_2 = "attack with bow and arrow"
-  consequence_2 = "The Lion's hide is too thick for your arrows!  The Lion eats you."
-  choice_3 = "wrestle lion"
-  consequence_3 = "You wrestle the lion, and strangle it with your superhuman strength."
-=end
-
   def play
-    
+
     puts intro  	
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
@@ -73,8 +63,8 @@ MY_HEREDOC
         dont_understand
       end
     end
-    
+
     hydra = Hydra.new
     hydra.play 
-  end  
+  end
 end

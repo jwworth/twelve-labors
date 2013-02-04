@@ -2,7 +2,7 @@ class Stables < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your fifth labor," says the King, "is to clean the Stables of Augeas."
@@ -42,7 +42,7 @@ end
         dont_understand
       end
     end
- 
+
   birds = Birds.new
   birds.play
 	end

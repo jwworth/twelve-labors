@@ -2,7 +2,7 @@ class Apples < Level
 
   def intro
 text = <<MY_HEREDOC
-  
+
 --------------------------------------------------------------------------
 
 "Your eleventh labor," says the King, "is to retrieve the Golden Apples of
@@ -25,12 +25,12 @@ MY_HEREDOC
 end
 
   def play
-    
+
     puts intro
     new_atlas = "Congratulations, Atlas!  You must now hold the Earth for all eternity."
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
@@ -56,7 +56,7 @@ end
         dont_understand
       end
     end
-    
+
     cerebus = Cerebus.new
     cerebus.play
   end
