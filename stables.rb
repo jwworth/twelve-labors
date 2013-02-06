@@ -9,14 +9,13 @@ text = <<MY_HEREDOC
 
 The Stables of Augeas sit at the junction of two rivers. They have not been
 cleaned in thirty years, and are home to thousands of cattle.  The King has
-ordered you to clean
-them in one day.
+ordered you to clean them in one day.
 MY_HEREDOC
 end 
 
   def play
 
-    puts intro  	
+    puts intro
     labor_completed = false
     counter = 0
 
@@ -45,5 +44,5 @@ end
 
   birds = Birds.new
   birds.play
-	end
+  end
 end
