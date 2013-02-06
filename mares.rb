@@ -32,7 +32,7 @@ end
     mares_die = "The King hears of your misfortune and orders your execution."
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
