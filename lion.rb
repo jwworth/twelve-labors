@@ -5,11 +5,20 @@ class Lion < Level
 
 --------------------------------------------------------------------------
 
-Begin the TWELVE LABORS OF HERACLES!
+TWELVE LABORS OF
 
-You are HERACLES, the son of Zeus, King of the Gods, and the moral Alcmene.
-Zeus' wife Hera is on a quest to destroy all of his illegitimate children.
-In her quest to destroy you, Hera tricks you into killing your family.
+##     ## ######## ########     ###     ######  ##       ########  ######  
+##     ## ##       ##     ##   ## ##   ##    ## ##       ##       ##    ## 
+##     ## ##       ##     ##  ##   ##  ##       ##       ##       ##       
+######### ######   ########  ##     ## ##       ##       ######    ######  
+##     ## ##       ##   ##   ######### ##       ##       ##             ## 
+##     ## ##       ##    ##  ##     ## ##    ## ##       ##       ##    ## 
+##     ## ######## ##     ## ##     ##  ######  ######## ########  ######  
+
+You are HERACLES, the son of Zeus, King of the Gods, and the mortal Alcmene.
+Zeus' wife Hera is on a rampage, murdering all of of her husband's illegit-
+imate children.  In her quest to destroy you, Hera tricks you into killing
+your own family.
 
 Stricken with grief, you journey to Delphi to consult the wise Oracle.
 "How can I purify myself?" you ask the Orcale.
