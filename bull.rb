@@ -26,27 +26,27 @@ end
 
   def play
 
-    puts intro  	
+    puts intro
     labor_completed = false
     counter = 0
 
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action.include? "set" or action.include? "trap"
         labor_completed = true
         puts "\nYou set a net trap in the woods."
         puts "The Bull walks by and is caught in the net!"
-        puts "You return to the King with the Bull." 
+        puts "You return to the King with the Bull."
       elsif action.include? "net" or action.include? "throw"
         puts "\nYour throw a net on the Bull while it is sleeping."
         dead("The bull wakes up, enraged, and rams a horn through your stomach.")
       elsif action.include? "kill"
         puts "\nYou decide to kill the Bull with your bow and arrow."
-        dead("The Hind is sacred to the King of Crete.  He orders your execution.")	
+        dead("The Hind is sacred to the King of Crete.  He orders your execution.")
       elsif action.include? "chase"
         puts "\nYou decide to chase the Boar through the woods."
         dead("Eventually, you get tired and thirsty, and give up your quest.")

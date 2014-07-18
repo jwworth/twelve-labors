@@ -34,7 +34,7 @@ end
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action == "drop the world"

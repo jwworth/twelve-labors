@@ -27,14 +27,14 @@ end
 
   def play
 
-    puts intro  	
+    puts intro
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action == "set a trap"
@@ -47,7 +47,7 @@ end
         puts "Trapped, you collect the beast and bring it back to the King."
       elsif action.include? "kill"
         puts "\nYou decide to kill the Hind with your bow and arrow."
-        dead("The Hind is sacred to the god Artemis.  Artemis kills you.")	
+        dead("The Hind is sacred to the god Artemis.  Artemis kills you.")
       elsif action.include? "chase"
         puts "\nYou decide to chase the deer through the woods."
         dead("Eventually, you get tired and thirsty, and give up your quest.")

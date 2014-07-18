@@ -18,15 +18,15 @@ MY_HEREDOC
 end
 
   def play
-    
-    puts intro  	
+
+    puts intro
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action.include? "shake" and action.include? "rattle"
@@ -43,5 +43,5 @@ end
 
     bull = Bull.new
     bull.play
-  end	
+  end
 end

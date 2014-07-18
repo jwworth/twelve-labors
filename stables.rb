@@ -11,7 +11,7 @@ The Stables of Augeas sit at the junction of two rivers. They have not been
 cleaned in thirty years, and are home to thousands of cattle.  The King has
 ordered you to clean them in one day.
 MY_HEREDOC
-end 
+end
 
   def play
 
@@ -22,7 +22,7 @@ end
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action.include? "divert river" or action.include? "divert the river"

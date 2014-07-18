@@ -32,15 +32,15 @@ MY_HEREDOC
 end
 
   def play
-    
-    puts intro_1 	
+
+    puts intro_1
     labor_completed = false
     counter = 0
-    
+
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action == "ask for girdle"

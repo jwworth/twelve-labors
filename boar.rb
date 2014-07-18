@@ -23,14 +23,14 @@ end
 
   def play
 
-    puts intro  	
+    puts intro
     labor_completed = false
     counter = 0
 
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action.include? "enter" or action.include? "lair"
@@ -56,5 +56,5 @@ end
 
   stables = Stables.new
   stables.play
-  end  
+  end
 end

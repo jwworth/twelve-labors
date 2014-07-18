@@ -7,13 +7,13 @@ class Lion < Level
 
 TWELVE LABORS OF
 
-##     ## ######## ########     ###     ######  ##       ########  ######  
-##     ## ##       ##     ##   ## ##   ##    ## ##       ##       ##    ## 
-##     ## ##       ##     ##  ##   ##  ##       ##       ##       ##       
-######### ######   ########  ##     ## ##       ##       ######    ######  
-##     ## ##       ##   ##   ######### ##       ##       ##             ## 
-##     ## ##       ##    ##  ##     ## ##    ## ##       ##       ##    ## 
-##     ## ######## ##     ## ##     ##  ######  ######## ########  ######  
+##     ## ######## ########     ###     ######  ##       ########  ######
+##     ## ##       ##     ##   ## ##   ##    ## ##       ##       ##    ##
+##     ## ##       ##     ##  ##   ##  ##       ##       ##       ##
+######### ######   ########  ##     ## ##       ##       ######    ######
+##     ## ##       ##   ##   ######### ##       ##       ##             ##
+##     ## ##       ##    ##  ##     ## ##    ## ##       ##       ##    ##
+##     ## ######## ##     ## ##     ##  ######  ######## ########  ######
 
 You are HERACLES, the son of Zeus, King of the Gods, and the mortal Alcmene.
 Zeus' wife Hera is on a rampage, murdering all of of her husband's illegit-
@@ -44,14 +44,14 @@ MY_HEREDOC
 
   def play
 
-    puts intro  	
+    puts intro
     labor_completed = false
     counter = 0
 
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action.include? "spear"
@@ -74,6 +74,6 @@ MY_HEREDOC
     end
 
     hydra = Hydra.new
-    hydra.play 
+    hydra.play
   end
 end

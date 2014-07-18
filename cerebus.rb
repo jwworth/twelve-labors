@@ -22,14 +22,14 @@ end
 
   def play
 
-    puts intro  	
+    puts intro
     choose_fight = false
     counter = 0
 
     while choose_fight == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action.include? "fight"
@@ -39,10 +39,10 @@ end
         puts "\nCan't run away!"
       end
     end
-	
+
     battling = true
     total_damage = 0
-	
+
     while battling do
       you_hit = rand(7)
       if you_hit > 0

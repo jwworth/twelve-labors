@@ -22,14 +22,14 @@ MY_HEREDOC
 
   def play
 
-    puts intro  	
+    puts intro
     labor_completed = false
     counter = 0
 
     while labor_completed == false do
       counter += 1
       prompt
-      action = gets.chomp.downcase  
+      action = gets.chomp.downcase
       if counter == 10
         dead("#{@timeout}")
       elsif action == "continue chopping"
@@ -54,5 +54,5 @@ MY_HEREDOC
 
     hind = Hind.new
     hind.play
-  end  
+  end
 end
