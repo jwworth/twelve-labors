@@ -1,7 +1,6 @@
 class Cerebus < Level
-
   def intro
-text = <<MY_HEREDOC
+    text = <<MY_HEREDOC
 
 --------------------------------------------------------------------------
 
@@ -21,12 +20,11 @@ MY_HEREDOC
 end
 
   def play
-
     puts intro
     choose_fight = false
     counter = 0
 
-    while choose_fight == false do
+    while choose_fight == false
       counter += 1
       prompt
       action = gets.chomp.downcase
@@ -43,7 +41,7 @@ end
     battling = true
     total_damage = 0
 
-    while battling do
+    while battling
       you_hit = rand(7)
       if you_hit > 0
         damage_this_round = rand(7)
@@ -61,7 +59,7 @@ end
       end
     end
 
-  immortality = Immortality.new
-  immortality.play
+    immortality = Immortality.new
+    immortality.play
   end
 end

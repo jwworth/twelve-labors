@@ -1,7 +1,6 @@
 class Apples < Level
-
   def intro
-text = <<MY_HEREDOC
+    text = <<MY_HEREDOC
 
 --------------------------------------------------------------------------
 
@@ -25,13 +24,12 @@ MY_HEREDOC
 end
 
   def play
-
     puts intro
     new_atlas = "Congratulations, Atlas!  You must now hold the Earth for all eternity."
     labor_completed = false
     counter = 0
 
-    while labor_completed == false do
+    while labor_completed == false
       counter += 1
       prompt
       action = gets.chomp.downcase

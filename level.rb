@@ -1,5 +1,4 @@
 class Level
-
   def initialize
     @quips = ["Try again, Heracles!", "You fail, Heracles!",
               "Give up!", "You lose!"]
@@ -12,7 +11,7 @@ class Level
   end
 
   def dead(reason)
-    puts "\n#{reason} \a" + @quips[rand(@quips.length())]
+    puts "\n#{reason} \a" + @quips[rand(@quips.length)]
     Process.exit(0)
   end
 

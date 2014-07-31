@@ -1,7 +1,6 @@
 class Boar < Level
-
   def intro
-text = <<MY_HEREDOC
+    text = <<MY_HEREDOC
 
 --------------------------------------------------------------------------
 
@@ -22,12 +21,11 @@ MY_HEREDOC
 end
 
   def play
-
     puts intro
     labor_completed = false
     counter = 0
 
-    while labor_completed == false do
+    while labor_completed == false
       counter += 1
       prompt
       action = gets.chomp.downcase
@@ -54,7 +52,7 @@ end
       end
     end
 
-  stables = Stables.new
-  stables.play
+    stables = Stables.new
+    stables.play
   end
 end

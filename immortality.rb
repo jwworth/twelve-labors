@@ -1,7 +1,6 @@
 class Immortality < Level
-
   def intro
-text = <<MY_HEREDOC
+    text = <<MY_HEREDOC
 
 --------------------------------------------------------------------------
 
@@ -14,7 +13,6 @@ MY_HEREDOC
 end
 
   def play
-
     puts intro
     puts "Play again (Y or N)?"
     prompt

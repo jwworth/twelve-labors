@@ -1,7 +1,6 @@
 class Mares < Level
-
   def intro
-text = <<MY_HEREDOC
+    text = <<MY_HEREDOC
 
 --------------------------------------------------------------------------
 
@@ -27,13 +26,12 @@ MY_HEREDOC
 end
 
   def play
-
     puts intro
     mares_die = "The King hears of your misfortune and orders your execution."
     labor_completed = false
     counter = 0
 
-    while labor_completed == false do
+    while labor_completed == false
       counter += 1
       prompt
       action = gets.chomp.downcase
@@ -61,7 +59,7 @@ end
       end
     end
 
-  girdle = Girdle.new
-  girdle.play
+    girdle = Girdle.new
+    girdle.play
   end
 end
